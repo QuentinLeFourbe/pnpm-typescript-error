@@ -1,0 +1,17 @@
+{
+  "name": "@test-app/api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon build/index.js",
+    "start": "node build/index.js",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "author": "",
+  "license": "ISC"
+}
